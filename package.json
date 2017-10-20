@@ -1,0 +1,12 @@
+{
+  "name": "puckjs-test",
+  "version": "1.0.0",
+  "description": "Testing out the puckjs BLE connection in browser",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo HI",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@trevorjtclarke",
+  "license": "MIT"
+}
