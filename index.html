@@ -22,8 +22,9 @@
 
   // Called when we get a line of data - updates the light color
   function onLine(v) {
-    console.log("Received: ", JSON.parse(v));
     path.style.fill="rgb(255,0,0)";
+    console.log("Received: ", v);
+    // console.log("Received: ", JSON.parse(v));
   }
 
   // When clicked, connect or disconnect
